@@ -1,0 +1,168 @@
+@media screen and (max-width: 1400px){
+    #bio{
+        height: 83vh;
+        margin-bottom: 6rem;
+    }
+    .hakkinda-containers{
+        flex-wrap: wrap;
+    }
+}
+    
+@media screen and (max-width: 1200px){
+    #desktop-nav{
+        display: none;
+    }
+    #hamburger-nav{
+        display: flex;
+    }
+    #tecrube,
+    .tecrube-container{
+        margin-top: 2rem;
+    }
+    #bio,
+    .section-container{
+        display: block;
+    }
+    .asagi-ok{
+        display: none;
+    }
+    section,
+    .section-container{
+        height: fit-content;
+    }
+    section{
+        margin: 0 5%;
+    }
+    .section-pic-container{
+        width: 275px;
+        height: 275px;
+        margin: 0 auto 2rem;
+    }
+    .hakkimda_foto{
+        width: 275px;
+        height: 275px;
+        margin: 0 auto 2rem;
+    }
+    .bio_foto{
+        width: 275px;
+        height: 275px;
+        margin: 0 auto 2rem;
+    }
+    .hakkinda-containers{
+        margin-top: 0;
+
+    }
+    .tecrube-container2{
+        width: 275px;
+        display: block;
+        text-align: center;
+    }
+    .tecrube-container3{
+        margin-bottom: 1rem;
+        text-align: center;
+        justify-content: center;
+    }
+    #iletisim,
+    footer{
+        height: 40vh;
+    }
+    #bio{
+        height: 83vh;
+        margin-bottom: 0;
+    }
+    article{
+        font-size: 1rem;
+    }
+    footer nav{
+        height: fit-content;
+        margin-bottom: 2rem;
+    }
+    .hakkinda-containers,
+    .iletisim-container,
+    .btn-container{
+        flex-wrap: wrap;
+    }
+
+    .iletisim-container2{
+        margin: 0;
+    }
+    .iletisim-container2 p, .nav-links li a{
+        font-size:1rem;
+
+    }
+    .tecrube-baslik{
+        font-size: 1.25rem;
+    }
+    .logo{
+        font-size: 1.3rem;
+    }
+    .nav-links{
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: center;
+    }
+    .section-pic-container{
+        width: auto;
+        height: 46vh;
+        text-align: center;
+    }
+    .ozet-yazi{
+        text-align: center;
+    }
+    #hakkinda{
+        margin-top: 1rem;
+    }
+}
+    
+@media screen and (max-width: 600px){
+    #iletisim,
+    footer{
+        height: 40vh;
+    }
+    #bio{
+        height: 83vh;
+        margin-bottom: 0;
+    }
+    article{
+        font-size: 1rem;
+    }
+    footer nav{
+        height: fit-content;
+        margin-bottom: 2rem;
+    }
+    .hakkinda-containers,
+    .iletisim-container,
+    .btn-container{
+        flex-wrap: wrap;
+    }
+    .iletisim-container2{
+        margin: 0;
+    }
+    .iletisim-container2 p,
+    .nav-links li a {
+        font-size: 1rem;
+    }
+    .nav-links{
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: center;
+    }
+    .section-pic-container{
+        max-height: 30vh;
+        width: auto;
+        justify-content: center;
+    }
+    .tecrube-baslik-container{
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .section-pic-container{
+        max-height: 40vh;
+    }
+    .bio_foto{
+        margin-bottom: 0.5rem;
+    }
+    
+}

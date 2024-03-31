@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolyo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Kadir Tan</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#hakkinda">Hakkında</a></li>
+                <li><a href="#tecrube">Yeteneklerim</a></li>
+                <li><a href="#hesapla">Hesapla</a></li>
+                <li><a href="#iletisim">İletişim</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Kadir Tan</div>
+        <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>        
+        <span></span>
+        <span></span>
+        </div>
+        <div class="menu-links">
+            <li><a href="#hakkinda" onclick="toggleMenu()">Hakkında</a></li>
+            <li><a href="#tecrube" onclick="toggleMenu()">Yeteneklerim</a></li>
+            <li><a href="#hesapla" onclick="toggleMenu()">Hesapla</a></li>
+            <li><a href="#iletisim" onclick="toggleMenu()">İletişim</a></li>
+        </div>
+</div>
+    </nav>
+    <section id="bio">
+        <div class="bio_foto">
+            <img src="./img/biofoto1.jpg" class="yuvarlak" alt="Kadir Tan Profil Foto">
+        </div>
+        <div class="bio_yazi">
+            <p class="bio_yazi_p1">Merhaba, Ben</p>
+            <h1 class="isim">Kadir Tan</h1>
+            <p class="bio_yazi_p2">Full Stack Developer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./img/biocv.pdf')">
+                    CV İndir
+                </button>
+                <button class="btn btn-color-1" onclick="location.href='./#iletisim'">İletişim</button>
+                
+            </div>
+        
+        <div id="socials-container">
+            <img src="./img/linkedin.png" class="icon" onclick="location.href='https://www.linkedin.com/in/kadir-tan-9447691ab/'" alt="Linkedin Profili">
+            <img src="./img/github-mark.png" class="icon" onclick="location.href='https://github.com/kadirtann'" alt="Github Profili">
+        </div>
+    </div>
+    </section>
+    <section id="hakkinda">
+        <p class="hakkinda_yazi_p1">Beni Tanıyın</p>
+        <h1 class="hakkinda_yazi">Ben Kimim?</h1>
+        <div class="section-container">
+            <div class="section-pic-container">
+                <img src="img/biofoto2.jpg" alt="Hakkımda Foto" class="hakkimda_foto">
+            </div>
+            <div class="hakkinda-container">
+                <div class="hakkinda-containers">
+                    <div class="hakkinda-containers2">
+                        <img src="img/tecrube.png" alt="Deneyim foto" class="icon tecrube-icon">
+                        <h3>Tecrübe</h3>
+                        <p>1 Yıl <br>Frontend Development <br>Backend Development</p>
+                    </div>
+                    <div class="hakkinda-container3">
+                        <img src="img/mezun.png" alt="Mezuniyet foto" class="icon tecrube-icon">
+                        <h3>Kocaeli Üniversitesi</h3>
+                        <p>Bilgisayar Programcılığı</p>
+                    </div>
+                </div>
+                <div class="ozet-yazi">
+                    <p>Ben Kadir. Kocaeli Üniversitesi Bilgisayar Programcılığı bölümünü bitirdikten sonra yazılım eğitimlerime devam ettim. Bir yıldır Frontend ve Backend projeler üzerinde çalışıyorum.</p>
+                </div>
+            </div>
+        </div>
+        <img src="img/ok.png" class="icon asagi-ok" alt="asagi ok" onclick="location.href='./#tecrube'">
+    </section>
+    <section id="tecrube">
+        <h1 class="tecrube_yazi">Yeteneklerim</h1>
+        <div class="tecrube-container">
+            <div class="tecrube-container2">
+                <div class="tecrube-container3">
+                    <h2 class="tecrube-baslik">Frontend Developement</h2>
+                    <div class="tecrube-baslik-container">
+                        <article>
+                            <img src="img/checkmark.png" class="icon" alt="Checkmark İkon">
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Deneyimli</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="img/checkmark.png" class="icon" alt="Checkmark İkon">
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Deneyimli</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="img/checkmark.png" class="icon" alt="Checkmark İkon">
+                            <div>
+                                <h3>Javascript</h3>
+                                <p>Orta Seviye</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="tecrube-container4">
+                    <h2 class="tecrube-baslik">Backend Developement</h2>
+                    <div class="tecrube-baslik-container">
+                        <article>
+                            <img src="img/checkmark.png" class="icon" alt="Checkmark İkon">
+                            <div>
+                                <h3>Python</h3>
+                                <p>Temel</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="img/checkmark.png" class="icon" alt="Checkmark İkon">
+                            <div>
+                                <h3>Django</h3>
+                                <p>Temel</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="img/checkmark.png" class="icon" alt="Checkmark İkon">
+                            <div>
+                                <h3>C#</h3>
+                                <p>Temel</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="img/ok.png" class="icon asagi-ok" alt="asagi ok" onclick="location.href='./#iletisim'">
+    </section>
+    <section id="iletisim">
+        <p class="iletisim_yazi">Bana Ulaşın</p>
+        <h1 class="iletisim_baslik">İletişim</h1>
+        <div class="iletisim-container">
+            <div class="iletisim-container2">
+                <img src="img/mail.png" alt="Mail Logo" class="icon iletisim-icon">
+                <p><a href="mailto:kadirtantan@gmail.com">kadirtantan@gmail.com</a></p>
+            </div>
+            <div class="iletisim-container2">
+                <img src="img/linkedin.png" alt="linkedin Logo" class="icon iletisim-icon">
+                <p><a href="https://www.linkedin.com/in/kadir-tan-9447691ab/">LinkedIn</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+        <div class="nav-links-container">
+            <ul class="nav-links">
+                <li><a href="#hakkinda">Hakkında</a></li>
+                <li><a href="#tecrube">Yeteneklerim</a></li>
+                <li><a href="#hesapla">Hesapla</a></li>
+                <li><a href="#iletisim">İletişim</a></li>
+            </ul>
+        </div>
+        </nav>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
