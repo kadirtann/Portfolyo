@@ -286,6 +286,7 @@ img.yuvarlak{
     right: -5rem;
     width: 3rem;
     height: 3rem;
+    justify-content: end;
 }
 
 
@@ -443,4 +444,92 @@ article .icon{
         height: 26vh;
         margin: 0 1rem;
     }
+    .hamburger-menu{
+        z-index: 999;
+    }
+
+    /*& HESAPLAMA BÖLÜMÜ  */
+
+    #sitesec{
+        padding: 2.2rem;
+        font-size: 16px;
+        border: 2px solid rgb(163, 163, 163);
+        border-radius: 5rem;
+        background-color: white;
+        margin-top: 1rem;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    #sitesec:hover{
+        border-color: black;
+        transition: all 400ms ease;
+    }
     
+    #sonuc{
+        display: inline-block;
+        flex-direction: column;
+        border: 2px solid rgb(163, 163, 163);
+        border-radius: 5rem;
+        padding: 5%;
+        width: max-content;
+        justify-content: center;
+        text-align: center;
+        margin-top: 1rem;
+        align-items: center;
+        vertical-align: middle;
+
+    }
+
+
+    #hesapla h1{
+        text-align: center;
+        font-size: 36px;
+    }
+    #hesapla{
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+    }
+    .form-container{
+        position: relative;
+    }
+    #hesapla form{
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .form-container{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        max-width: 600px;
+    }
+    #sonuc{
+        border: 2px solid transparent;
+        display: inline-block;
+        vertical-align: middle;
+        margin-bottom: 2rem;
+        margin-top: 1rem;
+    }
+    #sitesec .border{
+        border: 2px solid rgb(163, 163, 163);
+        border-radius: 5rem;
+        width: 100%;
+    }
+    #sonuc.bordergoster{ 
+        border-color: rgb(163, 163, 163);
+    }
+    
+    #sonuc:hover{
+        border-color: black;
+        transition: all 400ms ease;
+    }
+    #sitesec,
+    #sonuc{
+        display: inline-block;
+        vertical-align: middle;
+    }
+#iletisim{
+    position: relative;
+}
